@@ -10,7 +10,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #E3FCC2;
+  background: url(assets/forest_trees.jpg) center center fixed;
+  background-size: cover;
   height: 100vh;
 }
 
@@ -19,7 +20,7 @@ body {
   max-width: calc(100vw - 10px);
   height: 600px;
   background-color: #E9F6FB;
-  box-shadow: 5px 10px 5px #4e4e4e;
+  box-shadow: 5px 10px 10px 5px #000;
   border-radius: 5px;
 }
 
@@ -89,5 +90,6 @@ h3 {
   
 .contact a:hover {
   color: #000;
-  transition: color 0.5s ease-in-out;
+  transform: scale(1.1);
+  transition: color 0.5s ease-in-out, transform 0.5s;
 }
