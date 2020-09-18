@@ -44,7 +44,7 @@ body {
 
 .profile-picture:hover {
   transform: scale(1.1);
-  transition: transfrom 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
 }
 .content {
   font-family: Cambria;
